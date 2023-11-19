@@ -1,0 +1,11 @@
+/* App.css */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('background.jpg'); /* Replace with your comic background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

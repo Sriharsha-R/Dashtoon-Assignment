@@ -1,0 +1,113 @@
+/* ComicPanelGenerator.css */
+
+/* Google Fonts Link (Include in the head of your HTML file) */
+/* <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> */
+
+/* Comic Panel Generator Styling */
+
+/* ComicPanelGenerator.css */
+
+/* Import your downloaded font */
+@font-face {
+    font-family: 'Avengers';
+    src: url('./avengeance-font/AvengeanceHeroicAvengerNormal-Bz7d.ttf') format('truetype'); /* Adjust the path and format */
+    font-weight: normal;
+    font-style: normal;
+}
+  
+ 
+
+
+.comic-panel-generator {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffd699; /* Lighter orange background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid #000;
+    position: relative;
+  }
+  
+ /* Comic Panel Generator Styling */
+  
+ .comic-title {
+    color: #ff0000; /* Red text color for the title */
+    text-align: center;
+    font-size: 2.4em;
+    font-family: 'Avengers', cursive; /* Use the downloaded font */
+    margin: 10px 0;
+    letter-spacing: 2px; /* Adjust the letter spacing as needed */
+  }
+  
+  
+  
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .input-wrapper {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 1em;
+    border: 2px solid #ffa500; /* Use a darker orange for the border */
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-wrapper input:focus {
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+  }
+
+  .generate-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+}
+  
+  .generate-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .generate-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Add your spinner styles here if needed */
+  
+  /* Comic Panels Container */
+  .comic-panels-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .comic-panels-container img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
